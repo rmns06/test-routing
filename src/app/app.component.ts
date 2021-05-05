@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CalculComponent } from './components/calcul/calcul.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test-routing';
+ value1 = 0;
+ value2 = 0;
 }
